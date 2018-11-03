@@ -23,8 +23,8 @@
     &:active,
     &.active {
         color: white;
-        border-color: $theme-primary;
-        background-color: $theme-primary;
+        border-color: #bc0080;
+        background: linear-gradient(-170deg, #220044, #19213f, #bc0080);
     }
 }
 
