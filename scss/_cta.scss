@@ -2,8 +2,11 @@
 section.cta {
     position: relative;
     padding: 250px 0;
-    background-image: url('../img/bg-cta.jpg');
+    background-image: url('../img/lots-of-lanterns.jpg');
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     @include background-cover;
     .cta-content {
         position: relative;
