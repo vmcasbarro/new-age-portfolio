@@ -222,7 +222,7 @@ header.masthead .profile-picture {
 
 section.download {
   position: relative;
-  padding: 150px 0;
+  padding: 100px 0;
   color: white;
   background: url("../img/bg-pattern.png"), #19213f;
   background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#19213f), to(#220044));
