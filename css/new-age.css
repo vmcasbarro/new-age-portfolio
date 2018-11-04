@@ -308,8 +308,11 @@ section.features .feature-item i {
 }
 
 section.features .ttt-description {
-  background-color: black;
   height: 500px;
+}
+
+section.features iframe {
+  border-style: none;
 }
 
 section.cta {
