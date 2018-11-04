@@ -225,8 +225,7 @@ section.download {
   padding: 100px 0;
   color: white;
   background: url("../img/bg-pattern.png"), #19213f;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#19213f), to(#220044));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #19213f, #220044);
+  background: url("../img/bg-pattern.png"), linear-gradient(-150deg, #111229, #111229);
 }
 
 section.download h2 {
