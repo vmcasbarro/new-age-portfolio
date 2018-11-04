@@ -2,9 +2,9 @@
 section.cta {
     position: relative;
     padding: 250px 0;
-    background-image: url('../img/lots-of-lanterns.jpg');
+    background-image: url('../img/aurora-scrollable.jpg');
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     @include background-cover;
