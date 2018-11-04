@@ -307,6 +307,11 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
+section.features .ttt-description {
+  background-color: black;
+  height: 500px;
+}
+
 section.cta {
   position: relative;
   padding: 250px 0;
