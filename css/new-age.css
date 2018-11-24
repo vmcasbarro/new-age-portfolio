@@ -271,6 +271,14 @@ section.download .tool-image-group img {
   }
 }
 
+section.features h3 {
+  text-decoration: underline;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  -webkit-text-decoration-color: black;
+  text-decoration-color: black;
+}
+
 section.features .section-heading {
   margin-bottom: 100px;
 }
