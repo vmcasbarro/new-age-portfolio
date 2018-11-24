@@ -49,4 +49,24 @@ section.features {
       border-style: none;
     }
 
+    .trivial {
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        @media(max-width: 576px) {
+          width: 80%;
+        }
+        @media(min-width: 992px) {
+          display: none;
+        }
+      }
+      iframe {
+        @media(max-width: 992px) {
+          display: none;
+        }
+      }
+    }
+
 }

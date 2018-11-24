@@ -335,9 +335,34 @@ section.features iframe {
   border-style: none;
 }
 
+section.features .trivial img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  section.features .trivial img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  section.features .trivial img {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  section.features .trivial iframe {
+    display: none;
+  }
+}
+
 section.cta {
   position: relative;
-  padding: 250px 0;
+  padding: 150px 0;
   background-image: url("../img/aurora-scrollable.jpg");
   background-attachment: fixed;
   background-position: bottom;
@@ -357,6 +382,7 @@ section.cta .cta-content h2 {
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -378,35 +404,26 @@ section.contact {
   text-align: center;
 }
 
-section.contact h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-}
-
-section.contact h2 i {
-  color: #dd4b39;
-}
-
 section.contact ul.list-social {
   margin-bottom: 0;
 }
 
 section.contact ul.list-social li a {
-  font-size: 40px;
-  line-height: 80px;
+  font-size: 60px;
+  line-height: 100px;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   color: white;
   border-radius: 100%;
 }
 
 section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
+  background-color: #faa805;
 }
 
 section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
+  background-color: #e19705;
 }
 
 section.contact ul.list-social li.social-facebook a {

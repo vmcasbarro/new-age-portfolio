@@ -1,13 +1,14 @@
 // Styling for the call to action section
 section.cta {
     position: relative;
-    padding: 250px 0;
+    padding: 150px 0;
     background-image: url('../img/aurora-scrollable.jpg');
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     @include background-cover;
+
     .cta-content {
         position: relative;
         z-index: 1;
@@ -17,6 +18,7 @@ section.cta {
             margin-top: 0;
             margin-bottom: 25px;
             color: white;
+            text-align: center;
         }
         @media (min-width: 768px) {
             h2 {
