@@ -253,6 +253,18 @@ section.download .badges .badge-link img {
   }
 }
 
+section.download .tool-image-group img {
+  height: 64px;
+  width: 64px;
+}
+
+@media (min-width: 768px) {
+  section.download .tool-image-group img {
+    height: 128px;
+    width: 128px;
+  }
+}
+
 @media (min-width: 768px) {
   section.download h2 {
     font-size: 70px;
