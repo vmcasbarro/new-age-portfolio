@@ -327,10 +327,6 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
-section.features .description {
-  height: 500px;
-}
-
 section.features iframe {
   border-style: none;
 }
