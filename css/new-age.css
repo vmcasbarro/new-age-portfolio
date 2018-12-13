@@ -220,6 +220,14 @@ header.masthead .profile-picture {
   }
 }
 
+section.about .h2 {
+  text-decoration: underline;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  -webkit-text-decoration-color: black;
+  text-decoration-color: black;
+}
+
 section.download {
   position: relative;
   padding: 100px 0;
@@ -480,6 +488,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: #bc0080;
   background: -webkit-gradient(linear, left top, left bottom, from(#bc0080), to(#a3006f));
   background: linear-gradient(#bc0080, #a3006f);
+}
+
+.bg-tertiary {
+  background: #E3B749;
+  background: -webkit-gradient(linear, left top, left bottom, from(#E3B749), to(#e0ae33));
+  background: linear-gradient(#E3B749, #e0ae33);
 }
 
 .text-primary {

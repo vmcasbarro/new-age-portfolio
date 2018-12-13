@@ -5,6 +5,12 @@
     background: linear-gradient($theme-primary, darken($theme-primary, 5%));
 }
 
+.bg-tertiary {
+    background: #E3B749;
+    background: -webkit-linear-gradient(#E3B749, darken(#E3B749, 5%));
+    background: linear-gradient(#E3B749, darken(#E3B749, 5%));
+}
+
 .text-primary {
     color: $theme-primary;
 }
